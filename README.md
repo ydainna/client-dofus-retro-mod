@@ -5,6 +5,7 @@
 - **bypasse checkFile:** permet de bypass la protection de vérification du client en jeu via le packet résau BC (aks/Basics)
 - **active debugConsole:** permet d'ouvrir la console en jeu. (utilisaiton local ou création de commande si conaissances)
 - **docs:** documentations divers.
+- **constants:** constante du client (mode debug, etc).
 
 ## informations 
 > De nombreux éditeurs de logiciels propriétaires incluent dans leurs CLUF des clauses interdisant la rétro-ingénierie. Cependant dans de nombreux pays la rétro-ingénierie est autorisée par la loi, notamment à des fins d'interopérabilité. Dans ces pays, les clauses de ces CLUF ne sont pas valables, ou tout au plus dans les limites déterminées par la loi.
