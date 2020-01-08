@@ -5,6 +5,8 @@
 
 //Ajouter le code dans la partie : dofus.aks => Game (du loader ou du fichier core) (adapter celon besoin)
 //Replace la fonction onMovement ou si elle existe pas ajoutée celle-ci
+//Dupliquer le dossier du jeu pour éviter les check updater
+
 //*conseiller* Si besoin decomprésser le fichier app.asar mettre votre dossier mod retroclient à la place de l'autre et supprimer app.asar.unpacked
 
 //**note** il vous faudra surement adapter selon votre model de modification 
