@@ -1,33 +1,38 @@
-/Togglesprites +  (Cache les sprites de la map)
-/Infos +  (Affiche divers informations)
-/Zoom + valeur +  (Permet de zoom)
-/Timerscount +  (Affiche le dé-compte d'un timer)
-/Vars + ID (Affiche une fonction du tutorial)
-/Mount (Test monture)
-/Scale + valeur +  (Change la taille du personnage)
-/Ping (Affiche la requéte PING)
-/Mapid (Affiche les informations de la map acctuel)
-/Cellid (Affiche l'ID de la cellule actuel)
-/Time (Affiche l'heure)
-/Cache (Vide le cache)
-/Reboot +  (Reboot le client)
-/FPS +  (Affiche les FPS en haut de la console)
-/UI + Name +  (Permet de load une UI (dofus.graphics.ui...))
-/Debug +  (Active le mode debug)
-/Movieclip +  (Affiche un point rouge qui permet de voir le nom des movieclip du client)
-/Los + CellID (depart)+ cellID (arriver)+  (Permet de voir si la ligne de vue est activer d'une cellID à une autres)
-/Clearcell + CellID +  (Clear la cellule cible)
-/Anim + Arg +  (Joue une animation (sprite))                
-/Cellinfos + CellID +  (Affiche les informations sur la cellule cible)
-/Langfiles + LangName +  (Affiche la taille du fichier lang cible)
-/PointSprite + SpriteID +  (Permet de pointer un sprite cible sur la map)
-/Listsprites +  (Affiche l'ID des sprites de la map)
-/Listpictos +  (Affiche l'ID des pictos de la map)
-/Somaplay + PisteID +  (Permet de jouer une ambiance du soma)
-/Verifyidentity + PlayerName + (Vérifie l'indantitée d'un joueur cible 
-/Monster + NameMonster (Affiche les informations sur un mob cible)	
-/Gdc + CellID (depart)+ cellID (arriver)(Affiche le distance entre la case X & Y)
-/Pointpictos + ObjectID (Pointe un picto cible sur la map)
-/Logdisco + true / false (Affiche un message à la déconnexion d'un joueur)
-/c (or d) + < / > (permet d'envoier un packet au serveur ou au client)
-**note** pour les utilisation anim et /c et /d il faut passer en le client en mode debug
+- TOGGLESPRITES - Hide tous les sprites de la map
+- INFOS  - Donnes le nombre de personnage sur la map et ta cellule et les url des dataServers
+- ZOOM - Arg1:? / Arg2:? / Arg3:? - Permet de zoomer
+- TIMERSCOUNT - ???
+- VARS - ???
+- MOUNT - Arg1:Sprite Id de la monture / Arg2:Sprite Id de la morph - Simule une dragodinde avec le sprite choisis
+- SCALE - Arg1:Valeur X (ou valeur X ET Y si seul) / Arg2:Valeur Y - Modifie la taille du sprite du joueur
+- ANIM - Arg1:Nom de l'animation / Arg2:? - DEBUG : Permet de joueur une animation avec le sprite du joueur
+- C & D - Arg1:>(send) || <(receive) / Arg2:Paquet de data - Permet d'envoyer un paquet au serveur ou de simuler une reception de paquet
+- PING - Simple pling
+- MAPID - Affiches les informations de la carte courante
+- CELLID - Affiche la Cell Id du joueur
+- TIME - Affiche l'heure
+- CACHE - Permet de clear le cache du jeu
+- REBOOT - Vous déconnecte
+- FPS - Affiche les FPS a haut a gauche de la console
+- UI - Arg1:Nom de l'interface - Permet d'afficher l'interface donné en Arg1
+- DEBUG - Permet de passer le jeu en mode DEBUG
+- ASKOK - Arg1:Message - Permet d'afficher la valeur dans les langs du message dans un AskOk
+- ASKOK2 Arg1:Message - Affiche votre message dans un AskOk
+- MOVIECLIP - Charge l'ui MovieCLip qui permet d'obtenir l'arborescence de l'endroit ou vous avez cliquez
+- LOS - Arg1:CellId1 / Arg2:CellId2 - Permet de savoir si depuis la CellId1 il est possible de rejoindre a pied la CellId2
+- CLEARCELL - Arg1:CellId - Devrait soit disant supr les sprites de la cell donné en param
+- CELLINFO - Arg1:CellId - Donne plein d'information sur la cell doné en param
+- LANGFILE - Arg1:Nom d'un lang - Renvoi la taille en octet du lang donné en param chargé par votre client
+- POINTSPRITE - Arg1:Id d'un sprite - Permet de pointer sur la map tous les sprites ayant comme id Arg1
+- LISTSPRITES - Liste les sprites présent sur la map
+- LISTPICTO - Liste les picto utilisé sur la map (qui sont les ressources gfx utilisé pour la map)
+- POINTPICTO - Arg1:Id du Picto - Point les picto ayant pour id l'Arg1
+- SAVETHEWORLD - SAVING THE WORLD : ???
+- STOPSAVETHEWORLD - SAVING THE WORLD : ???
+- NEXTSAVE - SAVING THE WORLD : ???
+- SOMAPLAY - Arg1:Nom du son d'ambiance - Permet de jouer le son d'ambiance donné en Arg1
+- VERIFYIDENTITY - Arg1:? - Vérifie l'id d'un objet flash dans ton local storage flash du pc
+- MONSTER - Arg1:Nom d'un monstre - Permet de donner l'id et le Gfx de tous les monstres qui contiennent la chaîne donné en Arg1
+- RCMODULES - Recharge les modules
+- SHOWMOVETRACES - Permet d'afficher les déplacement du personnage sur la map
+- LOGDISCO - Arg1:1(true)-0(false) - Permet d'afficher dans le chat ADMIN les gens qui quitte la map
