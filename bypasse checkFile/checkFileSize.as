@@ -1,4 +1,4 @@
-﻿//Crée par ydainna le : 08/01/2020 (whit adobe flash cs6)
+﻿//Crée par ydainna le : 08/01/2020 (through adobe flash cs6) 
 
 //Le dossier du jeu se trouve dans : %appData%=>local=>Ankama=>Zaap=>Dofus retro
 //Allez au dossier : retroclient dans ressources=>app.asar.unpacked
@@ -11,6 +11,9 @@
 //*conseiller* Si besoin decomprésser le fichier app.asar mettre votre dossier mod retroclient à la place de l'autre et supprimer app.asar.unpacked
 
 //**note** il vous faudra surement adapter selon votre model de modification 
+
+
+//INFORMATIONS : il existe un code équivalent dans le fichier accessories qui se toruve dans : clips=>sprites=>accessories
 
 #initclip 48
 var _loc1 = dofus.utils.Api.prototype;
